@@ -24,7 +24,7 @@ function Projects(){
             </p>
             &nbsp; 
 
-            {/* <h2>MOVIO, August 2021</h2>
+            <h2>MOVIO, August 2021</h2>
             <p> A MEN stack application for users to search up movies, create watchlists, and see where titles are streaming.</p>
             <h4>Technologies Used: </h4>
             <p>Node.js, Express.js, MongoDB, HTML, CSS, Heroku, Git/Github, Embedded Javascript </p>
@@ -37,7 +37,7 @@ function Projects(){
                     &nbsp; 
                 <a href="https://github.com/gregdanko92/movio" target="_blank">Source Code</a> 
                     &nbsp; 
-            </p> */}
+            </p>
 
             &nbsp; 
             <h2>Tamagotchi App, July 2021</h2>
