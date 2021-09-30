@@ -4,11 +4,10 @@ function Header() {
     return (
         <header className='site-header'>
             <div className='name'>
-                
-                 <h2>Greg Danko</h2>
+                 <h1>Greg Danko</h1>
             </div>
-            <div className='nav'  >
-                 <Nav/>
+            <div className='domain-name'>
+                <h1>dankodev.io</h1>
             </div>
         </header>
     )
