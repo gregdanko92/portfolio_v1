@@ -28,10 +28,10 @@ function Projects(){
             <p> A MEN stack application for users to search up movies, create watchlists, and see where titles are streaming.</p>
             <h4>Technologies Used: </h4>
             <p>Node.js, Express.js, MongoDB, HTML, CSS, Heroku, Git/Github, Embedded Javascript </p>
-            <p>Utilized a host of APIs to aggregate movie data, including <a href="">OMDB</a>, <a href="">Youtube API</a>, <a href="">Watchmode</a>, and <a href="">Tastedive</a>  </p>
+            <p>Utilized a host of APIs to aggregate movie data, including <a href="https://www.omdbapi.com/">OMDB</a>, <a href="https://developers.google.com/youtube/v3">Youtube API</a>, <a href="https://api.watchmode.com/">Watchmode</a>, and <a href="https://tastedive.com/read/api">Tastedive</a>  </p>
             <p>Note: due to a limited amount of api calls per api key, some pages may not render :(</p>
             <p>
-                <a href="https://sei-706-project-one-cotsao.herokuapp.com/" target="_blank">Live Demo</a> 
+                <a href="https://app-movio.herokuapp.com/" target="_blank">Live Demo</a> 
                     &nbsp; 
                     |
                     &nbsp; 

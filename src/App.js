@@ -6,6 +6,8 @@ import Footer from './components/Footer'
 import { Switch, Route } from 'react-router-dom'
 import Projects from './components/Projects';
 import Resume from './components/Resume';
+import { PdfResume } from './components/PdfResume';
+import Contact from './components/Contact'
 
 
 function App() {
@@ -27,9 +29,19 @@ function App() {
           <Projects/>
           </Route>
 
+          {/* <Route path= '/pdf' exact component={PdfResume}>
+          <PdfResume/>
+          </Route> */}
+
           <Route path= '/resume' exact component={Resume}>
           <Resume/>
+
           </Route>
+          <Route path= '/contact' exact component={Contact}>
+          <Contact/>
+          </Route>
+
+          
       </Switch>
       <Footer/>
         </body>

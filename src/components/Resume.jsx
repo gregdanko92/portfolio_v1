@@ -1,3 +1,6 @@
+import { Link } from 'react-router-dom'
+
+
 function Resume(){
     return(
         <div className='resume-body'>
@@ -6,7 +9,11 @@ function Resume(){
                     <h2>Resume</h2> 
                 </div>
                 <div className='resume-top-right' >
-                    <a className='download-cv' href="../public/CV.pdf" download="CV.pdf">PDF</a>
+                    {/* <a className='download-cv' href="../cv/CV-Greg-Danko.pdf" download="CV-Greg-Danko.pdf">PDF</a> */}
+                    {/* <div className='download-cv'
+                    onClick={ () => window.open(require('./CV.pdf'), '_none')}>
+                        PDF
+                    </div> */}
                 </div>
             </div>
 
@@ -30,20 +37,19 @@ function Resume(){
                     <h4>Lab Technician, Georgetown University, Washington, DC</h4> <h4>08/2017-08/2018</h4>
                 </div>
                 <ul>
-                    <li>Spearheaded a developmental toxicity study characterizing the effects of the anticonvulsants levetiracetam and phenobarbital on the rat brain. Neonatal exposure was characterized through the behavioral, histological, and molecular outcomes.</li>
-                    <li>Neurobehavioral testing, immunohistochemistry, degenerative silver staining, stereotaxic surgery, drug dosing, laboratory management, accurate note keeping, data analysis (Microsoft Excel, GraphPad Prism).</li>
+                    <li>
+                        Spearheaded a developmental toxicity study characterizing the effects of the anticonvulsants levetiracetam and phenobarbital on the rat brain. Neonatal exposure was characterized through the behavioral, histological, and molecular outcomes.</li>
+                    <li>
+                        Managed all animal specimens and laboratory supply ordering for the Forcelli lab, ensuring that experiments were able to run on a regular schedule without any unnecessary delay, allowing experimentation to proceed uninhibited.
+                    </li>
+                    <li>
+                        Neurobehavioral testing, immunohistochemistry, degenerative silver staining, stereotaxic surgery, drug dosing, laboratory management, accurate note keeping, data analysis (Microsoft Excel, GraphPad Prism).
+                    </li>
                     <li>Co-authored the following <a href="https://pubmed.ncbi.nlm.nih.gov/30261353/">publication</a></li>
                 </ul>
             </div>
 
-            <div className="one-job">
-                <div className='job-block-header'>
-                    <h4>Laboratory Technician, George Washington University, Washington, DC</h4> <h4>11/2014-05/2016</h4>
-                </div>
-                <ul>
-                    <li>As a laboratory assistant under Dr. Kenna Peusner, I have been using the vestibular system of the chick in order to study vestibular phenomena in humans. Methods I have employed include electrophysiology, brain dissection, brain slicing, confocal microscopy, immunohistochemistry, and dye injection.</li>
-                </ul>
-            </div>
+            
             
     </div>
 
