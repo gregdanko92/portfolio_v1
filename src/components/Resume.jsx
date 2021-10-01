@@ -49,7 +49,29 @@ function Resume(){
                 </ul>
             </div>
 
-            
+            <div className="one-job">
+                <div className='job-block-header'>
+                    <h4>Lab Technician, George Washington University, Washington, DC</h4> <h4>11/2014-08/2016</h4>
+                </div>
+                <ul>
+                    <li>
+                    Performed chicken brain dissections on live tissue for use in ex vivo electrophysiology and immunohistochemistry
+                    </li>
+
+                    <li>
+                    Optimized a protocol for chicken brain dissections for use in ex vivo electrophysiology
+                    </li>
+
+                    <li>
+                    Built and optimized an ex vivo electrophysiology system for use by all laboratory members, reliably fixed the system when errors occurred to ensure experiment timelines went unimpeded. 
+                    </li>
+
+                    <li>
+                    Analyzed data from aforementioned experimental methods, and designed experiments to follow up on findings, in the pursuit of characterizing the tangential nucleus of the chicken midbrain.
+                    </li>
+                </ul>
+            </div>
+
             
     </div>
 

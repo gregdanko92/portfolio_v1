@@ -22,14 +22,12 @@ function Projects(){
                     &nbsp; 
                 <a href="https://github.com/gregdanko92/freELN_back_end" target="_blank">Server side source code</a> 
             </p>
-            &nbsp; 
 
             <h2>MOVIO, August 2021</h2>
             <p> A MEN stack application for users to search up movies, create watchlists, and see where titles are streaming.</p>
             <h4>Technologies Used: </h4>
             <p>Node.js, Express.js, MongoDB, HTML, CSS, Heroku, Git/Github, Embedded Javascript </p>
             <p>Utilized a host of APIs to aggregate movie data, including <a href="https://www.omdbapi.com/">OMDB</a>, <a href="https://developers.google.com/youtube/v3">Youtube API</a>, <a href="https://api.watchmode.com/">Watchmode</a>, and <a href="https://tastedive.com/read/api">Tastedive</a>  </p>
-            <p>Note: due to a limited amount of api calls per api key, some pages may not render :(</p>
             <p>
                 <a href="https://app-movio.herokuapp.com/" target="_blank">Live Demo</a> 
                     &nbsp; 
@@ -39,7 +37,7 @@ function Projects(){
                     &nbsp; 
             </p>
 
-            &nbsp; 
+            
             <h2>Tamagotchi App, July 2021</h2>
             <p>My first project in the General Assembly Software Engineering immersive app was a Tamagotchi App. Our basic requirements were to create a character and three metrics that increased on an interval, and three actions that can change these intervals. 
             </p>
