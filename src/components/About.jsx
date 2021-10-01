@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 function About(){
     return(
         <div className='about-content'>
-            <h2>About Me</h2>
+            <h1>About Me</h1>
             <p>I'm an east coast transplant living in San Francisco cutting my teeth as an engineer, although I've worked a fair share of other jobs, such as an organic chemistry tutor, chicken fryer, bartender, and most recently as a bench scientist in drug development. Strange as it sounds, this motley of experience prepared me for a career as a software engineer as I have developed meticulous eye for detail, a strong work ethic, and most importantly, mental fortitude to push through an onslaught of failures.
             </p>
 
@@ -14,7 +14,7 @@ function About(){
             <p>I've made a lot of progress in a ~relatively~ short period of time, but I'm always looking to push my horizons further! </p>
             <p>Feel free to check out my <Link to="/projects">projects</Link>,
                  my <Link to='/resume'>resume</Link>, or <Link to='/contact'>connect</Link> with me directly!</p>
-        <a href=""></a>
+        
         </div>
     )
 }

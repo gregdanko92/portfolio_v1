@@ -7,8 +7,8 @@ function Contact(){
             <p>Email me at &nbsp; 
             <a href="mailto:gregdanko92@gmail.com">gregdanko92@gmail.com</a>
             </p>
-            <p>Or check out my <a href="">LinkedIn</a></p>
-            <p>Or check out my github page <a href=""></a></p>
+            <p>Or check out my <a href="https://www.linkedin.com/in/greg-danko-036514b7">LinkedIn</a> profile</p>
+            <p>Or check out my <a href="https://github.com/gregdanko92">github</a> page</p>
         </div>
     )
 }

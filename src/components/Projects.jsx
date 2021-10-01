@@ -1,10 +1,11 @@
 function Projects(){
     return(
         <div className='projects'>
+            <h1>Software Engineering Projects</h1>
 
             <h2 className='proj-header'>freELN <i>(free electronic lab notebook),</i> September 2021</h2>
             <p> A MERN stack application for scientists to keep track of their experiments.</p>
-            <p>Users are able to make folders to organize all of thier experiments. When navigating to a particular folder, the user is then able to make an experiment entry in that folder. Currently, users are able to used the a text editor to style their experiment entries, as well a supporting file  </p>
+            <p>Users are able to make folders to organize all of thier experiments. When navigating to a particular folder, the user is then able to make an experiment entry in that folder. Currently, users are able to used the a text editor to style their experiment entries, as well a upload supporting files. </p>
             <h4>Features coming soon:</h4> 
             <p>Authentication for user profiles</p>
             <p>A protocol manager that hold experimental protocols that can be referenced by any experiment</p>
@@ -21,6 +22,15 @@ function Projects(){
                     |
                     &nbsp; 
                 <a href="https://github.com/gregdanko92/freELN_back_end" target="_blank">Server side source code</a> 
+            </p>
+
+            <h2 className='proj-header' >Portfolio Web Site, September 2021</h2>
+            <p>The very website you're looking at right now!</p>
+            <h4>Technologies Used: </h4>
+            <p>React.js, HTML, CSS, Heroku, Git/Github, Google Domains </p>
+            <p>
+                <a href="https://github.com/gregdanko92/portfolio_v1" target="_blank">Source Code</a> 
+                    &nbsp; 
             </p>
 
             <h2 className='proj-header' >MOVIO, August 2021</h2>

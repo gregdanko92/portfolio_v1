@@ -6,7 +6,7 @@ function Resume(){
         <div className='resume-body'>
             <div className='resume-top'>
                 <div className='resume-top-left'>
-                    <h2>Resume</h2> 
+                    <h1>Resume</h1> 
                 </div>
                 <div className='resume-top-right' >
                     {/* <a className='download-cv' href="../cv/CV-Greg-Danko.pdf" download="CV-Greg-Danko.pdf">PDF</a> */}
@@ -19,7 +19,7 @@ function Resume(){
 
             <div className="one-job">
                 <div className='job-block-header'>
-                    <h4>Senior Research Associate, Nura Bio Inc, South San Francisco, CA</h4> <h4>09/2018-07/2021</h4>
+                    <h2>Senior Research Associate, Nura Bio Inc, South San Francisco, CA</h2> <h2>09/2018-07/2021</h2>
                 </div>
                 <ul>
                     <li>Built computer programs to increase the speed of data processing and analysis in support of drug discovery efforts. These efforts have saved multiple scientists hours of time that would have been spent manipulating data within excel, while eliminating all points of possible human error. These programs were developed using <strong>Python</strong> , <strong> NumPy</strong>, <strong> Pandas</strong>, and <strong>Seaborn</strong>.</li>
@@ -34,7 +34,7 @@ function Resume(){
             
             <div className="one-job">
                 <div className='job-block-header'>
-                    <h4>Lab Technician, Georgetown University, Washington, DC</h4> <h4>08/2017-08/2018</h4>
+                    <h2>Lab Technician, Georgetown University, Washington, DC</h2> <h2>08/2017-08/2018</h2>
                 </div>
                 <ul>
                     <li>
@@ -51,7 +51,7 @@ function Resume(){
 
             <div className="one-job">
                 <div className='job-block-header'>
-                    <h4>Lab Technician, George Washington University, Washington, DC</h4> <h4>11/2014-08/2016</h4>
+                    <h2>Lab Technician, George Washington University, Washington, DC</h2> <h2>11/2014-08/2016</h2>
                 </div>
                 <ul>
                     <li>

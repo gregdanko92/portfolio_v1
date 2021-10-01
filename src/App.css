@@ -30,6 +30,7 @@ body {
   flex-flow:row wrap;
   justify-content:space-between;
   padding: 0%;
+  padding-bottom:1.5em;
   border-bottom:  #168b70;;
   border-style:solid;
   border-width: 0em;
@@ -77,13 +78,10 @@ footer {
   border-radius: 5px;
   margin-right:7px;
   transition:1s;
-  
-  
 }
 .footer-svg:hover{
   background-color: cornsilk;
   transition:1s;
- 
 }
 
 .contact-links{
@@ -122,6 +120,8 @@ text-align: right;
   .about-content{
     margin: 0%, 6% 3% 0%;
     color:#168b70;
+    overflow: scroll;
+    height:40em;
   }
 .job-block-header{
   align-items: center;
@@ -146,7 +146,7 @@ text-align: right;
 }
 
 .projects{
-  height:70em;
+  height:80em;
   overflow: scroll;
 }
 
@@ -166,7 +166,6 @@ a{
 strong{
   color:#168b70;
 }
-
 .pdf-container{
   width:100vw;
   height:100vh;
@@ -178,9 +177,34 @@ strong{
   margin: 0;
   padding:0;
 }
-h4{
-  margin:1em;
-}
 .proj-header{
   margin-top:1.5em;
+}
+.header-link{
+  text-decoration: none;
+}
+
+.footer-svg-mail{
+  height:16px;
+  width:16px;
+  padding: 5px;
+  margin-top:20px;
+  background-color: #168b70;;
+  border-radius: 5px;
+  margin-right:7px;
+  transition:1s;
+}
+.footer-svg-mail:hover{
+  background-color: cornsilk;
+  transition:1s;
+}
+
+h4 {
+  margin: 1em;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
 }
