@@ -2,7 +2,7 @@ function Projects(){
     return(
         <div className='projects'>
 
-            <h2>freELN <i>(free electronic lab notebook),</i> September 2021</h2>
+            <h2 className='proj-header'>freELN <i>(free electronic lab notebook),</i> September 2021</h2>
             <p> A MERN stack application for scientists to keep track of their experiments.</p>
             <p>Users are able to make folders to organize all of thier experiments. When navigating to a particular folder, the user is then able to make an experiment entry in that folder. Currently, users are able to used the a text editor to style their experiment entries, as well a supporting file  </p>
             <h4>Features coming soon:</h4> 
@@ -23,7 +23,7 @@ function Projects(){
                 <a href="https://github.com/gregdanko92/freELN_back_end" target="_blank">Server side source code</a> 
             </p>
 
-            <h2>MOVIO, August 2021</h2>
+            <h2 className='proj-header' >MOVIO, August 2021</h2>
             <p> A MEN stack application for users to search up movies, create watchlists, and see where titles are streaming.</p>
             <h4>Technologies Used: </h4>
             <p>Node.js, Express.js, MongoDB, HTML, CSS, Heroku, Git/Github, Embedded Javascript </p>
@@ -38,7 +38,7 @@ function Projects(){
             </p>
 
             
-            <h2>Tamagotchi App, July 2021</h2>
+            <h2 className='proj-header' >Tamagotchi App, July 2021</h2>
             <p>My first project in the General Assembly Software Engineering immersive app was a Tamagotchi App. Our basic requirements were to create a character and three metrics that increased on an interval, and three actions that can change these intervals. 
             </p>
             <p>I decided to make the app more personal by adding a few extra actions for the user, the ability to name the character, as well as creating different animations for each action using javascript intervals.</p>
