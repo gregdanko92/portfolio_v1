@@ -17,7 +17,7 @@ function App() {
 
       <body>
       <Switch>
-          <Route path='/' exact component={Welcome} >
+          <Route path='//' exact component={Welcome} >
             <Welcome/>
           </Route>
 
