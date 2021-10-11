@@ -1,6 +1,13 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import { useEffect } from 'react';
+
 function About(){
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, []) 
+
     return(
         <div className='about-content'>
             <h1>About Me</h1>

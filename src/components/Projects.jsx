@@ -1,4 +1,12 @@
+import React from 'react'
+import { useEffect } from 'react';
+
 function Projects(){
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+
     return(
         <div className='projects'>
             <h1>Software Engineering Projects</h1>

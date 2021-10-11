@@ -1,7 +1,13 @@
 import { Link } from 'react-router-dom'
-
+import React from 'react'
+import { useEffect } from 'react';
 
 function Resume(){
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+      
     return(
         <div className='resume-body'>
             <div className='resume-top'>
