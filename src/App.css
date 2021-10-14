@@ -94,6 +94,7 @@ text-align: right;
   text-decoration: none;
   border: 1px solid #168b70;
   padding: 2vh;
+  margin-bottom:3vh;
   border-radius: 10px;
   transition-duration: 1.5s;
 }
@@ -269,4 +270,10 @@ h2 {
 h3{
   margin-block-start: 1em;
     margin-block-end: 1em;
+}
+
+.resume-image{
+  height:180vh;
+  width:200vw;
+  overflow-y: hidden;
 }

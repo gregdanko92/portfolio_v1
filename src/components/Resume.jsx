@@ -16,11 +16,10 @@ function Resume(){
                 </div>
                 
                 <div className='resume-top-right' >
-                    {/* <a className='download-cv' href="../cv/CV-Greg-Danko.pdf" download="CV-Greg-Danko.pdf">PDF</a> */}
-                    {/* <div className='download-cv'
-                    onClick={ () => window.open(require('./CV.pdf'), '_none')}>
-                    PDF
-                </div> */}
+                    <a className='download-cv'
+                    target="_blank"
+                    href='https://docs.google.com/document/d/e/2PACX-1vR2VNXJPbDnKb1L2cAP3jmxFisMHZjeu-KfOdjLYJDe4oFzRyHFPGfCFKhWQS0GaRMXVAW2E2ewHvle/pub'>PDF</a>
+                
                 </div>
             </div>
 
