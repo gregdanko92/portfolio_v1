@@ -18,7 +18,8 @@ function Resume(){
                 <div className='resume-top-right' >
                     <a className='download-cv'
                     target="_blank"
-                    href='https://docs.google.com/document/d/e/2PACX-1vR2VNXJPbDnKb1L2cAP3jmxFisMHZjeu-KfOdjLYJDe4oFzRyHFPGfCFKhWQS0GaRMXVAW2E2ewHvle/pub'>PDF</a>
+                    href='https://docs.google.com/document/d/e/2PACX-1vR2VNXJPbDnKb1L2cAP3jmxFisMHZjeu-KfOdjLYJDe4oFzRyHFPGfCFKhWQS0GaRMXVAW2E2ewHvle/pub'
+                    >PDF</a>
                 
                 </div>
             </div>
@@ -60,6 +61,7 @@ function Resume(){
                             <p>Seaborn</p>
                             <p>CellProfiler</p>
                             <p>OpenCV</p>
+                            <p>Django</p>
                         </div>
                     </div>
                     <div className='skill-block'>
