@@ -9,8 +9,8 @@ function Header() {
                  to='/'>
                      <h1>Greg Danko</h1></Link>
             </div>
-            <div className='domain-name'>
-                <h1>dankodev.io</h1>
+            <div className='send-message '>
+            <Link to='/contact' className='link-message' href="mailto:gregdanko92@gmail.com">Connect</Link>
             </div>
         </header>
     )

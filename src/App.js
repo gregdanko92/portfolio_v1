@@ -14,8 +14,7 @@ function App() {
   return (
     <div className="App">
       <Header/>
-
-      <body>
+    <div className='site-body-container'>
       <Switch>
           <Route path='//' exact component={Welcome} >
             <Welcome/>
@@ -28,10 +27,6 @@ function App() {
           <Route path= '/work_experience' exact component={WorkExperience}>
           <WorkExperience/>
           </Route>
-
-          {/* <Route path= '/pdf' exact component={PdfResume}>
-          <PdfResume/>
-          </Route> */}
 
           <Route path= '/resume' exact component={Resume}>
           <Resume/>
@@ -47,8 +42,8 @@ function App() {
 
           
       </Switch>
+    </div>
       <Footer/>
-        </body>
 
     </div>
   );
