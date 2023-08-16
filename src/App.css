@@ -44,10 +44,9 @@ body {
 
 
 footer {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   color: #168b70;;
-  margin: 0%;
-  height:15vh;
+  height:10vh;
   width:100vw;
   margin-top:100%;
   display:flex;
@@ -141,7 +140,7 @@ text-align: right;
     right:0;
 }
 .resume-body{
-  height:200em;
+  height:120em;
 }
 @media (max-width: 375px) {
   .job-block-header {

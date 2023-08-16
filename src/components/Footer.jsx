@@ -18,8 +18,8 @@ return (
                     <Link style={{ textDecoration: 'none' }} to="/resume">
                     <h4>Resume</h4>
                     </Link>
-                    <Link style={{ textDecoration: 'none' }} to="/projects">
-                    <h4>Projects</h4>
+                    <Link style={{ textDecoration: 'none' }} to="/work_experience">
+                    <h4>Work Experience</h4>
                     </Link>
                 </div>
                 <div className='footerRight'>

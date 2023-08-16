@@ -4,7 +4,7 @@ import Welcome from './components/Welcome'
 import About from './components/About'
 import Footer from './components/Footer'
 import { Switch, Route } from 'react-router-dom'
-import Projects from './components/Projects';
+import WorkExperience from './components/WorkExperience';
 import Resume from './components/Resume';
 import PdfResume from './components/PdfResume';
 import Contact from './components/Contact'
@@ -25,8 +25,8 @@ function App() {
           <About/>
           </Route>
 
-          <Route path= '/projects' exact component={Projects}>
-          <Projects/>
+          <Route path= '/work_experience' exact component={WorkExperience}>
+          <WorkExperience/>
           </Route>
 
           {/* <Route path= '/pdf' exact component={PdfResume}>

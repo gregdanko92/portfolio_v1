@@ -11,7 +11,7 @@ function About(){
     return(
         <div className='about-content'>
             <h1>About Me</h1>
-            <p>I'm an east coast transplant living in San Francisco cutting my teeth as an engineer, although I've worked a fair share of other jobs, such as an organic chemistry tutor, chicken fryer, bartender, and most recently as a bench scientist in drug development. Strange as it sounds, this motley of experience prepared me for a career as a software engineer as I have developed meticulous eye for detail, a strong work ethic, and most importantly, mental fortitude to push through an onslaught of failures.
+            <p>I'm an east coast transplant living in Los Angeles working as a full stack engineer, although I've worked a fair share of other jobs, such as an organic chemistry tutor, chicken fryer, bartender, and most recently as a bench scientist in drug development. Strange as it sounds, this motley of experience prepared me for a career as a software engineer as I have developed meticulous eye for detail, a strong work ethic, and most importantly, mental fortitude to push through an onslaught of failures.
             </p>
 
             <h2>My Background</h2>
