@@ -1,28 +1,33 @@
 .App {
 
   overscroll-behavior:none;
-  overflow:hidden;
+  /* overflow:hidden; */
 }
 a {
-  color: #168b70;
+  color: #049541;
   
 }
 a:visited {
-  color: #168b70;;
+  color: #049541;;
   font-style: italic;
 }
 body {
   /* height:60%; */
-  background-color:#0c1526;
-  color:  #168b70;;
+  background-color:#f1f2f6;
+  color:  #34431d;;
   padding:1%;
   /* min-height: 100%; */
   
 }
 
+h1{
+  color:#34431d;;
+}
+
 .site-header {
+  
   align-items: center;
-  color: #168b70;;
+  color: #34431d;;
   margin: 0%;
   height:10vh;
   width:100%;
@@ -31,7 +36,7 @@ body {
   justify-content:space-between;
   padding: 0%;
   padding-bottom:1.5em;
-  border-bottom:  #168b70;;
+  border-bottom:  #34431d;;
   border-style:solid;
   border-width: 0em;
   border-bottom-width: 0.1em;
@@ -44,8 +49,8 @@ body {
 
 
 footer {
-  background-color: rgb(0, 0, 0);
-  color: #168b70;;
+  background-color: #101936;
+  color: #049541;;
   height:10vh;
   width:100vw;
   margin-top:100%;
@@ -73,7 +78,7 @@ footer {
   width:16;
   padding: 5px;
   margin-top:20px;
-  background-color: #168b70;;
+  background-color: #049541;;
   border-radius: 5px;
   margin-right:7px;
   transition:1s;
@@ -91,7 +96,7 @@ text-align: right;
   font-family:'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   font-weight: bold;
   text-decoration: none;
-  border: 1px solid #168b70;
+  border: 1px solid #34431d;
   padding: 2vh;
   margin-bottom:3vh;
   border-radius: 10px;
@@ -104,7 +109,7 @@ text-align: right;
 }
 .resume-top {
     align-items: center;
-    color: #168b70;;
+    color: #34431d;;
     margin: 0%;
     height:10vh;
     width:100%;
@@ -119,25 +124,18 @@ text-align: right;
 
   .about-content{
     margin: 0%, 6% 3% 0%;
-    color:#168b70;
+    color:#34431d;
     overflow: scroll;
     height:60em;
   }
 .job-block-header{
   align-items: center;
-    color: #168b70;;
-    margin: 0% 0%;
-    height:10vh;
+    color: #34431d;;
     width:100%;
     display:flex;
     flex-flow:row wrap;
     justify-content:space-between;
-    /* padding: 0%;
-    margin-right:5%; */
     scroll-snap-type:mandatory;
-    top:0;
-    left:0;
-    right:0;
 }
 .resume-body{
   height:120em;
@@ -172,7 +170,7 @@ a{
   font-weight:bolder;
 }
 strong{
-  color:#168b70;
+  color:#049541;
 }
 .pdf-container{
   width:100vw;
@@ -197,7 +195,7 @@ strong{
   width:16px;
   padding: 5px;
   margin-top:20px;
-  background-color: #168b70;;
+  background-color: #049541;;
   border-radius: 5px;
   margin-right:7px;
   transition:1s;
@@ -220,7 +218,6 @@ h4 {
   font-size: 1.75em;
   font-weight:bold;
   padding-top:0.75em;
-  border-top: 1px solid #168b70;
 }
 
 h2 {
@@ -235,11 +232,12 @@ h2 {
 }
 
 .one-job{
-  border-bottom: 1px solid #168b70;
+  border-bottom: 1px solid #34431d;
   
 }
 .education-section{
-  border-bottom: 1px solid #168b70;
+  border-bottom: 1px solid #34431d;
+  height:35vh
 
 }
 
@@ -266,7 +264,7 @@ h2 {
 }
 }
 
-h3{
+h3 {
   margin-block-start: 1em;
     margin-block-end: 1em;
 }
@@ -275,4 +273,48 @@ h3{
   height:180vh;
   width:200vw;
   overflow-y: hidden;
+}
+
+.job-description {
+/* padding:0% 5% */
+}
+
+.education-line{
+  display: flex;
+  flex-direction: row;
+  width:100%;
+  justify-content:space-between;
+}
+
+.site-body-container{
+  padding:0% 5%;
+
+
+}
+
+.work-experience-component-container{
+  overflow-y: scroll;
+}
+
+p{
+  line-height:25px;
+  color:#362f2d
+}
+
+.send-message{
+  font-size: 23px;
+  border: solid 2px #362f2d;
+  color:#362f2d;
+  padding:15px;
+  border-radius:25px;
+  transition:1s;
+
+}
+.link-message{
+  text-decoration: none;
+}
+
+.send-message:hover{
+  background-color:#049541;
+  transition:1s;
 }
