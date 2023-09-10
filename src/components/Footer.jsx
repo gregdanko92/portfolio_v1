@@ -37,7 +37,7 @@ return (
                     </div>
                     
                        
-                    <h4> © 2023 Greg Danko</h4>
+                    <div> <b>© 2023 Greg Danko</b></div>
                 </div>
     
             </footer>
