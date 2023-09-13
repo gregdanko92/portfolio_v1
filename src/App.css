@@ -90,6 +90,7 @@ footer {
 
 .contact-links{
 text-align: right;
+margin-top:-5px;
 }
 
 .download-cv{
@@ -317,4 +318,9 @@ p{
 .send-message:hover{
   background-color:#049541;
   transition:1s;
+}
+
+.copyright{
+  margin-top:5px;
+
 }
